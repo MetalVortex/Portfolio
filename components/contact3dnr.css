@@ -160,12 +160,21 @@
 
  
 @media(max-width: 767px) {
+  .contact3dnr-contact20 {
+    height: 871px;
+  }
+  .contact3dnr-max-width {
+    height: auto;
+  }
   .contact3dnr-row {
     flex-direction: column;
   }
 }
  
 @media(max-width: 479px) {
+  .contact3dnr-contact20 {
+    height: 948px;
+  }
   .contact3dnr-row {
     align-items: stretch;
   }

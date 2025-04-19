@@ -83,7 +83,11 @@
 }
  
 .timeline4dnr-text13 {
+  font-size: 20px;
+  font-style: normal;
   text-align: left;
+  font-weight: 600;
+  text-transform: capitalize;
 }
  
 .timeline4dnr-step2 {
@@ -138,6 +142,7 @@
 }
  
 .timeline4dnr-text16 {
+  font-size: 20px;
   text-align: left;
 }
  
@@ -193,6 +198,7 @@
 }
  
 .timeline4dnr-text19 {
+  font-size: 20px;
   text-align: left;
 }
  
@@ -324,6 +330,12 @@
   .timeline4dnr-max-width {
     gap: 32px;
   }
+  .timeline4dnr-text16 {
+    font-size: 20px;
+  }
+  .timeline4dnr-text25 {
+    font-size: 20px;
+  }
 }
  
 @media(max-width: 767px) {
@@ -351,5 +363,9 @@
   }
   .timeline4dnr-timeline-container {
     width: 100%;
+  }
+  .timeline4dnr-text15 {
+    font-style: italic;
+    font-weight: 700;
   }
 }
