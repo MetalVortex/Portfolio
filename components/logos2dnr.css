@@ -1,0 +1,101 @@
+.logos2dnr-container1 {
+  gap: 48px;
+  width: 100%;
+  display: flex;
+  position: relative;
+  align-items: center;
+  flex-direction: column;
+}
+ 
+.logos2dnr-max-width {
+  gap: 32px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  animation-name: fadeInRight;
+  flex-direction: column;
+  animation-delay: 0s;
+  animation-duration: 1.5s;
+  animation-direction: normal;
+  animation-iteration-count: 1;
+  animation-timing-function: ease;
+}
+ 
+.logos2dnr-text1 {
+  width: 45%;
+  text-align: center;
+}
+ 
+.logos2dnr-container2 {
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+ 
+.logos2dnr-logo3 {
+  object-fit: contain;
+  text-decoration: none;
+}
+ 
+.logos2dnr-logo4 {
+  object-fit: contain;
+  text-decoration: none;
+}
+ 
+.logos2dnr-logo2 {
+  object-fit: contain;
+  text-decoration: none;
+}
+ 
+.logos2dnr-logo7 {
+  object-fit: contain;
+  text-decoration: none;
+}
+ 
+.logos2dnr-logo6 {
+  object-fit: contain;
+  text-decoration: none;
+}
+ 
+.logos2dnr-logo1 {
+  object-fit: contain;
+  text-decoration: none;
+}
+ 
+.logos2dnr-logo5 {
+  object-fit: contain;
+  text-decoration: none;
+}
+ 
+.logos2dnr-logo8 {
+  object-fit: contain;
+  text-decoration: none;
+}
+ 
+.logos2dnr-fragment {
+  display: contents;
+}
+ 
+.logos2dnr-text2 {
+  display: inline-block;
+}
+ 
+.logos2dn-rroot-class-name {
+  align-self: center;
+  padding-left: var(--dl-layout-space-doubleunit);
+  padding-right: var(--dl-layout-space-doubleunit);
+}
+ 
+@media(max-width: 991px) {
+  .logos2dnr-text1 {
+    width: 100%;
+    text-align: center;
+  }
+}
+ 
+@media(max-width: 767px) {
+  .logos2dnr-container1 {
+    gap: 32px;
+  }
+  .logos2dnr-max-width {
+    gap: 32px;
+  }
+}

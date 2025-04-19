@@ -1,0 +1,573 @@
+<!DOCTYPE html>
+<html lang="en"
+  ><head
+    ><title>Portfolio Page</title
+    ><meta property="og:title" content="Portfolio Page" /><meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    /><meta charset="utf-8" /><meta
+      property="twitter:card"
+      content="summary_large_image"
+    />
+
+    <style data-tag="reset-style-sheet">
+      html {  line-height: 1.15;}body {  margin: 0;}* {  box-sizing: border-box;  border-width: 0;  border-style: solid;  -webkit-font-smoothing: antialiased;}p,li,ul,pre,div,h1,h2,h3,h4,h5,h6,figure,blockquote,figcaption {  margin: 0;  padding: 0;}button {  background-color: transparent;}button,input,optgroup,select,textarea {  font-family: inherit;  font-size: 100%;  line-height: 1.15;  margin: 0;}button,select {  text-transform: none;}button,[type="button"],[type="reset"],[type="submit"] {  -webkit-appearance: button;  color: inherit;}button::-moz-focus-inner,[type="button"]::-moz-focus-inner,[type="reset"]::-moz-focus-inner,[type="submit"]::-moz-focus-inner {  border-style: none;  padding: 0;}button:-moz-focus,[type="button"]:-moz-focus,[type="reset"]:-moz-focus,[type="submit"]:-moz-focus {  outline: 1px dotted ButtonText;}a {  color: inherit;  text-decoration: inherit;}input {  padding: 2px 4px;}img {  display: block;}details {  display: block;  margin: 0;  padding: 0;}summary::-webkit-details-marker {  display: none;}[data-thq="accordion"] [data-thq="accordion-content"] {  max-height: 0;  overflow: hidden;  transition: max-height 0.3s ease-in-out;  padding: 0;}[data-thq="accordion"] details[data-thq="accordion-trigger"][open] + [data-thq="accordion-content"] {  max-height: 1000vh;}details[data-thq="accordion-trigger"][open] summary [data-thq="accordion-icon"] {  transform: rotate(180deg);}html { scroll-behavior: smooth  }
+    </style>
+    <style data-tag="default-style-sheet">
+      html {
+        font-family: Arial;
+        font-size: 16px;
+      }
+
+      body {
+        font-weight: 400;
+        font-style:normal;
+        text-decoration: none;
+        text-transform: none;
+        letter-spacing: normal;
+        line-height: 1.55;
+        color: var(--dl-color-gray-black);
+        background: var(--dl-color-gray-white);
+
+        fill: var(--dl-color-gray-black);
+      }
+    </style>
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/animate.css@4.1.1/animate.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Overpass:ital,wght@0,100;0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/@teleporthq/teleport-custom-scripts/dist/style.css"
+    />
+  </head>
+  <body
+    ><link rel="stylesheet" href="./style.css" /><div
+      ><link href="./index.css" rel="stylesheet" /><div class="home-container1"
+        ><navbar-dnr-wrapper
+          class="navbar-dnr-wrapper"
+          rootclassname="navbar-dn-rundefined"
+          ><!--NavbarDNR component--><div
+            class="navbar-dnr-navbar navbar-dn-rroot-class-name"
+            ><a href="index.html" class="navbar-dnr-navlink"
+              ><img
+                alt="image"
+                src="public/metalvortex-200h.png"
+                class="navbar-dnr-image" /></a
+            ><div class="navbar-dnr-links-container1"
+              ><a href="index.html" class="navbar-dnr-link1 Navbar-Link"
+                ><fragment class="home-fragment10"
+                  ><span class="home-text10">Home </span></fragment
+                ></a
+              ><a href="animations.html" class="navbar-dnr-link2 Navbar-Link"
+                ><fragment class="home-fragment11"
+                  ><span class="home-text11">Portfolio</span></fragment
+                ></a
+              ><a
+                href="mailto:t3wise@gmail.com?subject="
+                class="navbar-dnr-link3 Navbar-Link"
+                ><fragment class="home-fragment12"
+                  ><span class="home-text12">Contact</span></fragment
+                ></a
+              ></div
+            ><div data-role="BurgerMenu" class="navbar-dnr-burger-menu"
+              ><svg viewBox="0 0 1024 1024" class="navbar-dnr-icon1">
+                <path
+                  d="M128 256h768v86h-768v-86zM128 554v-84h768v84h-768zM128 768v-86h768v86h-768z"
+                ></path></svg></div
+            ><div data-role="MobileMenu" class="navbar-dnr-mobile-menu"
+              ><div class="navbar-dnr-container"
+                ><span class="Card-Heading navbar-dnr-heading"
+                  ><fragment class="home-fragment17"
+                    ><span class="home-text17">Logo</span></fragment
+                  ></span
+                ><div data-role="CloseMobileMenu" class="navbar-dnr-close-menu"
+                  ><svg viewBox="0 0 1024 1024" class="navbar-dnr-icon3">
+                    <path
+                      d="M810 274l-238 238 238 238-60 60-238-238-238 238-60-60 238-238-238-238 60-60 238 238 238-238z"
+                    ></path></svg></div></div
+              ><div class="navbar-dnr-links-container2"
+                ><span class="navbar-dnr-link4 Navbar-Link"
+                  ><fragment class="home-fragment13"
+                    ><span class="home-text13">About</span></fragment
+                  ></span
+                ><span class="navbar-dnr-link5 Navbar-Link"
+                  ><fragment class="home-fragment14"
+                    ><span class="home-text14">Experience</span></fragment
+                  ></span
+                ><span class="navbar-dnr-link6 Navbar-Link"
+                  ><fragment class="home-fragment15"
+                    ><span class="home-text15">Portofolio</span></fragment
+                  ></span
+                ><span class="Navbar-Link"
+                  ><fragment class="home-fragment16"
+                    ><span class="home-text16">Contact</span></fragment
+                  ></span
+                ></div
+              ></div
+            ></div
+          ></navbar-dnr-wrapper
+        ><div class="home-section-separator1"></div
+        ><div class="home-container2"
+          ><div class="home-hero"
+            ><div class="home-hero-text-container"
+              ><h1 class="home-heading1 Section-Heading">Hi, I'm Tim Wise</h1
+              ><span class="home-text18 Section-Text"
+                >I'm a Sophomore at the Cleveland Institute of Art, majoring in
+                Animation! I mostly focus on character animation, but I am also
+                experienced in 3D Modeling, Character and Prop Rigging,
+                Texturing, Compositing, and more!</span
+              ><div class="home-cta-btn-container"
+                ><a href="animations.html" class="home-cta-btn1 Anchor button"
+                  ><span class="home-text19">Portfolio</span></a
+                ><a href="#Contact3DNR" class="home-cta-btn2 button Anchor"
+                  >contact</a
+                ></div
+              ></div
+            ><img
+              alt="image"
+              src="public/20250410_150750-1500w.jpg"
+              class="home-image1" /></div></div
+        ><div class="home-features"
+          ><div class="home-heading-container"
+            ><h2 class="home-text20 Section-Heading">Fields of Study</h2></div
+          ><div class="home-cards-container"
+            ><div class="home-card1"
+              ><div class="home-icon-container1"
+                ><svg
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  class="home-icon1"
+                >
+                  <path
+                    d="M4 2a2 2 0 0 0-2 2v10h2V4h10V2zm4 4a2 2 0 0 0-2 2v10h2V8h10V6zm12 6v8h-8v-8zm0-2h-8a2 2 0 0 0-2 2v8a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2v-8a2 2 0 0 0-2-2m-6 3v6l4-3z"
+                    fill="currentColor"
+                  ></path></svg></div
+              ><div class="home-content-container1"
+                ><span class="home-heading2 Card-Heading">Animation</span
+                ><span class="home-text21 accidentNameChange"
+                  >Character and prop animation are my main areas of focus. I am
+                  familiar with Blender, Maya and Cascadeur for animation, and
+                  use whichever tool is right for the job.</span
+                ></div
+              ></div
+            ><div class="home-card2"
+              ><div class="home-icon-container2"
+                ><img
+                  alt="image"
+                  src="public/2066472714-200h.png"
+                  class="home-image2" /></div
+              ><div class="home-content-container2"
+                ><span class="home-heading3 Card-Heading">Rigging</span
+                ><span class="home-text22 accidentNameChange"
+                  >Character and Prop rigging is also another area of focus. I
+                  make my own rigs in Blender, Maya, Cascaduer, and Unreal
+                  Engine for use in my work.</span
+                ></div
+              ></div
+            ><div class="home-card3"
+              ><div class="home-icon-container3"
+                ><svg
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  class="home-icon3"
+                >
+                  <g
+                    fill="none"
+                    color="currentColor"
+                    stroke="currentColor"
+                    stroke-width="1.5"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  >
+                    <path
+                      d="M2 8.356c0-1.544 0-2.316.45-3.042c.448-.725 1.007-1.003 2.123-1.56a16.6 16.6 0 0 1 14.854 0c1.116.557 1.675.835 2.124 1.56S22 6.812 22 8.356v7.288c0 1.544 0 2.316-.45 3.042c-.449.726-1.007 1.004-2.123 1.56a16.6 16.6 0 0 1-14.854 0c-1.116-.556-1.674-.834-2.124-1.56C2 17.96 2 17.188 2 15.644z"
+                    ></path>
+                    <path
+                      d="M2 14.135q1.001-.135 2.016-.132c2.856-.056 5.642.77 7.86 2.331c2.06 1.448 3.505 3.44 4.124 5.666"
+                    ></path>
+                    <path
+                      d="M22 16.896c-1.175-.595-2.391-.897-3.614-.896c-1.851-.007-3.684.673-5.386 2"
+                    ></path>
+                    <circle r="1.5" cx="6.5" cy="7.5"></circle>
+                  </g></svg></div
+              ><div class="home-content-container3"
+                ><span class="home-heading4 Card-Heading">Compositing</span
+                ><span class="home-text23 accidentNameChange"
+                  >I have experience using ACES and primarily use Nuke for
+                  compositing, however I also use After Effects and Premiere Pro
+                  depending on the project.</span
+                ></div
+              ></div
+            ></div
+          ></div
+        ><div class="home-section-separator2"></div
+        ><logos2dnr-wrapper
+          class="logos2dnr-wrapper"
+          rootclassname="logos2dn-rundefined"
+          ><!--Logos2DNR component--><div
+            class="logos2dnr-container1 thq-section-padding logos2dn-rroot-class-name"
+            ><div class="logos2dnr-max-width thq-section-max-width"
+              ><h2 class="logos2dnr-text1 thq-heading-2"
+                ><fragment class="home-fragment18"
+                  ><span class="home-text24">Programs I Use</span></fragment
+                ></h2
+              ><div class="logos2dnr-container2 thq-grid-5"
+                ><a
+                  href="https://www.blender.org/"
+                  target="_blank"
+                  rel="noreferrer noopener"
+                  ><img
+                    alt="Motion Graphics"
+                    src="public/blender_logo_no_text.svg-1500w.png"
+                    class="logos2dnr-logo3 thq-img-ratio-16-9" /></a
+                ><a
+                  href="https://www.autodesk.com/products/maya/overview"
+                  target="_blank"
+                  rel="noreferrer noopener"
+                  ><img
+                    alt="Illustration"
+                    src="public/autodesk_maya-1500w.webp"
+                    class="logos2dnr-logo4 thq-img-ratio-16-9" /></a
+                ><a
+                  href="https://www.unrealengine.com/"
+                  target="_blank"
+                  rel="noreferrer noopener"
+                  ><img
+                    alt="Character Animation"
+                    src="public/unreal-1.svg"
+                    class="logos2dnr-logo2 thq-img-ratio-16-9" /></a
+                ><a
+                  href="https://cascadeur.com/"
+                  target="_blank"
+                  rel="noreferrer noopener"
+                  ><img
+                    alt="Digital Art"
+                    src="public/casceduer-1500w.png"
+                    class="logos2dnr-logo7 thq-img-ratio-16-9" /></a
+                ><a
+                  href="https://www.adobe.com/products/substance3d/apps/painter.html"
+                  target="_blank"
+                  rel="noreferrer noopener"
+                  ><img
+                    alt="Digital Art"
+                    src="public/images-1500w.png"
+                    class="logos2dnr-logo6 thq-img-ratio-16-9" /></a
+                ><a
+                  href="https://jangafx.com/software/embergen"
+                  target="_blank"
+                  rel="noreferrer noopener"
+                  ><img
+                    alt="Logo Design"
+                    src="public/embergen-icon-1500w.png"
+                    class="logos2dnr-logo1 thq-img-ratio-16-9" /></a
+                ><a
+                  href="https://www.foundry.com/products/nuke-family/nuke"
+                  target="_blank"
+                  rel="noreferrer noopener"
+                  ><img
+                    alt="Digital Art"
+                    src="public/nuke-1500w.png"
+                    class="logos2dnr-logo5 thq-img-ratio-16-9" /></a
+                ><a
+                  href="https://home.otoy.com/render/octane-render/"
+                  target="_blank"
+                  rel="noreferrer noopener"
+                  ><img
+                    alt="Digital Art"
+                    src="public/communityicon_itkplz84owy31-1500w.png"
+                    class="logos2dnr-logo8 thq-img-ratio-16-9" /></a></div></div></div></logos2dnr-wrapper
+        ><timeline4dnr-wrapper
+          class="timeline4dnr-wrapper"
+          rootclassname="timeline4dn-rundefined"
+          ><!--Timeline4DNR component--><div
+            class="timeline4dnr-container10 thq-section-padding timeline4dn-rroot-class-name"
+            ><div class="timeline4dnr-max-width thq-section-max-width"
+              ><div class="timeline4dnr-container11"
+                ><h2 class="thq-heading-2"
+                  ><fragment class="home-fragment22"
+                    ><span class="home-text28">Who am I?</span></fragment
+                  ></h2
+                ><span class="timeline4dnr-text11 thq-body-small"
+                  ><fragment class="home-fragment23"
+                    ><span class="home-text29"
+                      ><span
+                        >My name is Tim,&nbsp; I'm a 3D generalist who loves
+                        movies, videogames, and animation. I was born in 2005 in
+                        Ohio, where I currently live. I started learning Blender
+                        back in 2019 because I was bored in highschool. Covid-19
+                        spread soon after and it gave me a ton of extra free
+                        time at home to learn the basics of working in a 3D
+                        space. I tried a variety of different things, from music
+                        production to game design, but I always kept coming back
+                        to 3D animation and eventually decided to formally learn
+                        it after enrolling at the Cleveland Institute of Art.
+                        I've made countless friends their and continue to learn
+                        so much there. Since coming to CIA, I have learned to
+                        use Maya, Unreal Engine, Cascadeur, Substance Painter,
+                        Embergen, Nuke, Octane, and many other programs in my
+                        journey to become an efficient generalist. I hope to
+                        keep learning new programs as well as to refine my
+                        skills as a 3D generalist.</span
+                      ><br /></span></fragment></span></div
+              ><div class="timeline4dnr-timeline-container"
+                ><div class="timeline4dnr-step1"
+                  ><div class="timeline4dnr-container12"
+                    ><div class="timeline4dnr-container13"></div
+                    ><div class="timeline4dnr-progress01"></div></div
+                  ><div class="timeline4dnr-container14"
+                    ><h3 class="thq-heading-3"
+                      ><fragment class="home-fragment19"
+                        ><span class="home-text25">Winter 2019</span></fragment
+                      ></h3
+                    ><h3 class="timeline4dnr-text13 thq-heading-3"
+                      ><fragment class="home-fragment25"
+                        ><span class="home-text33"
+                          >Began learning Blender</span
+                        ></fragment
+                      ></h3
+                    ><span class="thq-body-small"
+                      ><fragment class="home-fragment24"
+                        ><span class="home-text32"
+                          >I began my 3D journey back in 2019, where I began to
+                          teach myself Blender as a hobbyest for the next 4
+                          years.</span
+                        ></fragment
+                      ></span
+                    ></div
+                  ></div
+                ><div class="timeline4dnr-step2"
+                  ><div class="timeline4dnr-container15"
+                    ><div class="timeline4dnr-container16"></div
+                    ><div class="timeline4dnr-progress02"></div></div
+                  ><div class="timeline4dnr-container17"
+                    ><h3 class="thq-heading-3"
+                      ><fragment class="home-fragment20"
+                        ><span class="home-text26">Fall 2023</span></fragment
+                      ></h3
+                    ><h3 class="timeline4dnr-text16 thq-heading-3"
+                      ><fragment class="home-fragment27"
+                        ><span class="home-text35"
+                          >Enrolled at the Cleveland Institute of Art</span
+                        ></fragment
+                      ></h3
+                    ><span class="thq-body-small"
+                      ><fragment class="home-fragment26"
+                        ><span class="home-text34"
+                          >I enrolled at the Cleveland Institute of Art, where I
+                          began to formally learn 3D animation. I also began
+                          branching out and learning other programs at this
+                          time</span
+                        ></fragment
+                      ></span
+                    ></div
+                  ></div
+                ><div class="timeline4dnr-step3"
+                  ><div class="timeline4dnr-container18"
+                    ><div class="timeline4dnr-container19"></div
+                    ><div class="timeline4dnr-progress03"></div></div
+                  ><div class="timeline4dnr-container20"
+                    ><h3 class="thq-heading-3"
+                      ><fragment class="home-fragment21"
+                        ><span class="home-text27">Today</span></fragment
+                      ></h3
+                    ><h3 class="timeline4dnr-text19 thq-heading-3"
+                      ><fragment class="home-fragment29"
+                        ><span class="home-text37"
+                          >Persuing Animation at CIA</span
+                        ></fragment
+                      ></h3
+                    ><span class="thq-body-small"
+                      ><fragment class="home-fragment28"
+                        ><span class="home-text36"
+                          >I am constantly learning new programs and techniques,
+                          and I plan to learn other programs such as Marvelous
+                          Designer and Houdini to make myself more versatile.
+                          Its a joy to be learning something new every
+                          day.</span
+                        ></fragment
+                      ></span
+                    ></div
+                  ></div
+                ><div class="timeline4dnrdot"
+                  ><div class="timeline4dnr-container21"
+                    ><div
+                      class="timeline4dnr-container22"
+                    ></div></div></div></div></div></div></timeline4dnr-wrapper
+        ><contact3dnr-wrapper
+          class="contact3dnr-wrapper"
+          rootclassname="contact3dn-rundefined"
+          ><!--Contact3DNR component--><div
+            id="Contact3DNR"
+            class="contact3dnr-contact20 thq-section-padding contact3dn-rroot-class-name"
+            ><div class="contact3dnr-max-width thq-section-max-width"
+              ><div class="contact3dnr-section-title"
+                ><div class="contact3dnr-content1"
+                  ><h2 class="thq-heading-2"
+                    ><fragment class="home-fragment33"
+                      ><span class="home-text41"
+                        >Contact Tim Wise</span
+                      ></fragment
+                    ></h2
+                  ><p class="contact3dnr-text2 thq-body-large"
+                    ><fragment class="home-fragment32"
+                      ><span class="home-text40"
+                        >Feel free to reach out for inquiries. Response times
+                        may vary.</span
+                      ></fragment
+                    ></p
+                  ></div
+                ></div
+              ><div class="contact3dnr-row"
+                ><div class="contact3dnr-content2"
+                  ><svg
+                    viewBox="0 0 1024 1024"
+                    class="contact3dnr-icon1 thq-icon-medium"
+                  >
+                    <path
+                      d="M854 342v-86l-342 214-342-214v86l342 212zM854 170q34 0 59 26t25 60v512q0 34-25 60t-59 26h-684q-34 0-59-26t-25-60v-512q0-34 25-60t59-26h684z"
+                    ></path></svg
+                  ><div class="contact3dnr-contact-info1"
+                    ><div class="contact3dnr-content3"
+                      ><h3 class="contact3dnr-text3 thq-heading-3"
+                        >Email</h3
+                      ></div
+                    ><a
+                      href="mailto:t3wise@gmail.com?subject="
+                      class="contact3dnr-email thq-body-small"
+                      ><fragment class="home-fragment30"
+                        ><span class="home-text38"
+                          >t3wise@gmail.com</span
+                        ></fragment
+                      ></a
+                    ></div
+                  ></div
+                ><div class="contact3dnr-content4"
+                  ><svg
+                    viewBox="0 0 1024 1024"
+                    class="contact3dnr-icon3 thq-icon-medium"
+                  >
+                    <path
+                      d="M282 460q96 186 282 282l94-94q20-20 44-10 72 24 152 24 18 0 30 12t12 30v150q0 18-12 30t-30 12q-300 0-513-213t-213-513q0-18 12-30t30-12h150q18 0 30 12t12 30q0 80 24 152 8 26-10 44z"
+                    ></path></svg
+                  ><div class="contact3dnr-contact-info2"
+                    ><div class="contact3dnr-content5"
+                      ><h3 class="contact3dnr-text4 thq-heading-3"
+                        >Phone &amp; SMS</h3
+                      ></div
+                    ><a
+                      href="tel:3303046761"
+                      class="contact3dnr-phone thq-body-small"
+                      ><fragment class="home-fragment31"
+                        ><span class="home-text39"
+                          >+1 (330) 304-6761</span
+                        ></fragment
+                      ></a
+                    ></div
+                  ></div
+                ></div
+              ></div
+            ></div
+          ></contact3dnr-wrapper
+        ><footer3dnr-wrapper
+          class="footer3dnr-wrapper"
+          rootclassname="footer3dn-rundefined"
+          ><!--Footer3DNR component--><footer
+            class="footer3dnr-footer4 thq-section-padding footer3dn-rroot-class-name"
+            ><div class="footer3dnr-max-width thq-section-max-width"
+              ><div class="footer3dnr-content"
+                ><div class="footer3dnr-logo"
+                  ><img
+                    alt="image"
+                    src="public/metalvortex-200h.png"
+                    class="footer3dnr-image" /></div
+                ><div class="footer3dnr-links"
+                  ><a href="index.html" class="footer3dnr-link1 thq-body-small"
+                    ><fragment class="home-fragment34"
+                      ><span class="home-text42">Home</span></fragment
+                    ></a
+                  ><a
+                    href="animations.html"
+                    class="footer3dnr-link2 thq-body-small"
+                    ><fragment class="home-fragment35"
+                      ><span class="home-text43">Portfolio</span></fragment
+                    ></a
+                  ><a
+                    href="mailto:t3wise@gmail.com?subject="
+                    class="footer3dnr-link5 thq-body-small"
+                    ><fragment class="home-fragment36"
+                      ><span class="home-text44">Contact</span></fragment
+                    ></a
+                  ></div
+                ><div class="footer3dnr-social-links"
+                  ><a
+                    href="https://www.facebook.com/share/1Z95yF72MJ/"
+                    target="_blank"
+                    rel="noreferrer noopener"
+                    class="footer3dnr-link3"
+                    ><svg
+                      viewBox="0 0 877.7142857142857 1024"
+                      class="footer3dnr-icon1 thq-icon-small"
+                    >
+                      <path
+                        d="M713.143 73.143c90.857 0 164.571 73.714 164.571 164.571v548.571c0 90.857-73.714 164.571-164.571 164.571h-107.429v-340h113.714l17.143-132.571h-130.857v-84.571c0-38.286 10.286-64 65.714-64l69.714-0.571v-118.286c-12-1.714-53.714-5.143-101.714-5.143-101.143 0-170.857 61.714-170.857 174.857v97.714h-114.286v132.571h114.286v340h-304c-90.857 0-164.571-73.714-164.571-164.571v-548.571c0-90.857 73.714-164.571 164.571-164.571h548.571z"
+                      ></path></svg></a
+                  ><a
+                    href="https://www.instagram.com/metal.vortex/profilecard/?igsh=b3I3andpd3V0bWdo"
+                    target="_blank"
+                    rel="noreferrer noopener"
+                    class="footer3dnr-link4"
+                    ><svg
+                      viewBox="0 0 877.7142857142857 1024"
+                      class="footer3dnr-icon3 thq-icon-small"
+                    >
+                      <path
+                        d="M585.143 512c0-80.571-65.714-146.286-146.286-146.286s-146.286 65.714-146.286 146.286 65.714 146.286 146.286 146.286 146.286-65.714 146.286-146.286zM664 512c0 124.571-100.571 225.143-225.143 225.143s-225.143-100.571-225.143-225.143 100.571-225.143 225.143-225.143 225.143 100.571 225.143 225.143zM725.714 277.714c0 29.143-23.429 52.571-52.571 52.571s-52.571-23.429-52.571-52.571 23.429-52.571 52.571-52.571 52.571 23.429 52.571 52.571zM438.857 152c-64 0-201.143-5.143-258.857 17.714-20 8-34.857 17.714-50.286 33.143s-25.143 30.286-33.143 50.286c-22.857 57.714-17.714 194.857-17.714 258.857s-5.143 201.143 17.714 258.857c8 20 17.714 34.857 33.143 50.286s30.286 25.143 50.286 33.143c57.714 22.857 194.857 17.714 258.857 17.714s201.143 5.143 258.857-17.714c20-8 34.857-17.714 50.286-33.143s25.143-30.286 33.143-50.286c22.857-57.714 17.714-194.857 17.714-258.857s5.143-201.143-17.714-258.857c-8-20-17.714-34.857-33.143-50.286s-30.286-25.143-50.286-33.143c-57.714-22.857-194.857-17.714-258.857-17.714zM877.714 512c0 60.571 0.571 120.571-2.857 181.143-3.429 70.286-19.429 132.571-70.857 184s-113.714 67.429-184 70.857c-60.571 3.429-120.571 2.857-181.143 2.857s-120.571 0.571-181.143-2.857c-70.286-3.429-132.571-19.429-184-70.857s-67.429-113.714-70.857-184c-3.429-60.571-2.857-120.571-2.857-181.143s-0.571-120.571 2.857-181.143c3.429-70.286 19.429-132.571 70.857-184s113.714-67.429 184-70.857c60.571-3.429 120.571-2.857 181.143-2.857s120.571-0.571 181.143 2.857c70.286 3.429 132.571 19.429 184 70.857s67.429 113.714 70.857 184c3.429 60.571 2.857 120.571 2.857 181.143z"
+                      ></path></svg></a
+                  ><a
+                    href="https://www.linkedin.com/in/timothy-wise-b99035361/"
+                    target="_blank"
+                    rel="noreferrer noopener"
+                    class="footer3dnr-link6"
+                    ><svg
+                      viewBox="0 0 877.7142857142857 1024"
+                      class="footer3dnr-icon5 thq-icon-small"
+                    >
+                      <path
+                        d="M135.429 808h132v-396.571h-132v396.571zM276 289.143c-0.571-38.857-28.571-68.571-73.714-68.571s-74.857 29.714-74.857 68.571c0 37.714 28.571 68.571 73.143 68.571h0.571c46.286 0 74.857-30.857 74.857-68.571zM610.286 808h132v-227.429c0-121.714-65.143-178.286-152-178.286-70.857 0-102.286 39.429-119.429 66.857h1.143v-57.714h-132s1.714 37.143 0 396.571v0h132v-221.714c0-11.429 0.571-23.429 4-32 9.714-23.429 31.429-48 68-48 47.429 0 66.286 36 66.286 89.714v212zM877.714 237.714v548.571c0 90.857-73.714 164.571-164.571 164.571h-548.571c-90.857 0-164.571-73.714-164.571-164.571v-548.571c0-90.857 73.714-164.571 164.571-164.571h548.571c90.857 0 164.571 73.714 164.571 164.571z"
+                      ></path></svg></a
+                  ><a
+                    href="https://www.youtube.com/@metal.vortex"
+                    target="_blank"
+                    rel="noreferrer noopener"
+                    class="footer3dnr-link7"
+                    ><svg
+                      viewBox="0 0 1024 1024"
+                      class="footer3dnr-icon7 thq-icon-small"
+                    >
+                      <path
+                        d="M406.286 644.571l276.571-142.857-276.571-144.571v287.429zM512 152c215.429 0 358.286 10.286 358.286 10.286 20 2.286 64 2.286 102.857 43.429 0 0 31.429 30.857 40.571 101.714 10.857 82.857 10.286 165.714 10.286 165.714v77.714s0.571 82.857-10.286 165.714c-9.143 70.286-40.571 101.714-40.571 101.714-38.857 40.571-82.857 40.571-102.857 42.857 0 0-142.857 10.857-358.286 10.857v0c-266.286-2.286-348-10.286-348-10.286-22.857-4-74.286-2.857-113.143-43.429 0 0-31.429-31.429-40.571-101.714-10.857-82.857-10.286-165.714-10.286-165.714v-77.714s-0.571-82.857 10.286-165.714c9.143-70.857 40.571-101.714 40.571-101.714 38.857-41.143 82.857-41.143 102.857-43.429 0 0 142.857-10.286 358.286-10.286v0z"
+                      ></path></svg></a></div></div></div></footer></footer3dnr-wrapper></div
+    ></div>
+    <script
+      defer=""
+      src="https://unpkg.com/@teleporthq/teleport-custom-scripts"
+    ></script></body
+></html>
